@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    This is test of package testing
+    This is test of package testing with tag v1.0.0
 </body>
 </html>
