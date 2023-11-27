@@ -1,0 +1,26 @@
+{
+    "name": "tejendra/email",
+    "description": "this is for test of laravel package development",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tejendra\\Email\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tezz500",
+            "email": "tejendra@thulo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tejendra\\Email\\TejendraEmailServiceProvider"
+            ],
+        }
+    },
+}
